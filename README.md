@@ -13,3 +13,5 @@ https://www.youtube.com/watch?v=qPtScmB8CgA&pp=ygUPZGphbmdvIHByb2plY3Rz
 Django
 
 https://www.toptal.com/developers/gitignore/
+
+original repo
