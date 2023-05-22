@@ -16,3 +16,7 @@ https://www.toptal.com/developers/gitignore/
 
 original repo:
 https://github.com/tomitokko/django_url_shortner
+
+https://github.com/tomitokko/todo-list-app-with-django
+
+https://github.com/tomitokko/english-dictionary-with-django
