@@ -14,7 +14,8 @@ Django
 
 https://www.toptal.com/developers/gitignore/
 
-original repo:
+Original repos:
+
 https://github.com/tomitokko/django_url_shortner
 
 https://github.com/tomitokko/todo-list-app-with-django
