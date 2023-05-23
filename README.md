@@ -14,6 +14,10 @@ Django
 
 https://www.toptal.com/developers/gitignore/
 
+https://stackoverflow.com/questions/71336856/error-pydictionary-would-not-install-on-python-3-10-2
+
+https://pypi.org/project/PyDictionary/
+
 Original repos:
 
 https://github.com/tomitokko/django_url_shortner
