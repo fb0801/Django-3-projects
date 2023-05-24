@@ -18,6 +18,10 @@ https://stackoverflow.com/questions/71336856/error-pydictionary-would-not-instal
 
 https://pypi.org/project/PyDictionary/
 
+https://stackoverflow.com/questions/47923952/python-django-how-to-display-error-messages-on-invalid-login
+
+https://medium.com/codeptivesolutions/https-medium-com-codeptivesolutions-commonly-used-sql-queries-using-django-orm-e8466e8d4258
+
 Original repos:
 
 https://github.com/tomitokko/django_url_shortner

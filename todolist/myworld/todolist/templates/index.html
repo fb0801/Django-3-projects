@@ -128,6 +128,8 @@ input {
 </head>
 <body>
 
+ 
+
 <div id="myDIV" class="header">
   <h2 style="margin:5px">Django To Do List App</h2>
   <form action="" method="POST">
@@ -142,6 +144,16 @@ input {
   <li>{{todo.title | title}} <span class="close"><a style="text-decoration: none; color: black;" href="delete/{{todo.id}}">Delete</a></span></li>
   {% endfor %}
 </ul>
+
+{% for message in messages %}
+    
+<div class="alert alert-success">
+    <a class="close" href="#" data-dismiss="alert">×</a>
+       {{ message }}
+       
+</div>
+
+{% endfor %}
 
 </body>
 </html>

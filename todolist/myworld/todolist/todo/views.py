@@ -1,16 +1,25 @@
 from django.shortcuts import render, redirect
 from .models import Todo
+from django.contrib import messages
+
 
 # Create your views here.
 def index(request):
     #adding todo object
-    todo= Todo.object.all()
+    todo= Todo.objects.all() #displays all items
     if request.method =='POST':
-        new_todo = Todo(
+
+        queryset = Todo.objects.all().values()
+        if queryset == False:
+
+            new_todo = Todo(
             title = request.POST['title']
-        )
-        new_todo.save()
-        return redirect('/')
+            )
+            new_todo.save()
+            return redirect('/')
+        else:
+            messages.error(request, 'Item already exists')
+            return redirect('/')
     
     return render(request, 'index.html', {'todos':todo})
 
